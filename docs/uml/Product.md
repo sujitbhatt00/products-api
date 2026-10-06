@@ -1,13 +1,13 @@
 ```mermaid
 classDiagram
     class Product {
-        -Long id
-        -String name
-        -double price
+        -id : Long
+        -name : String
+        -price : double
         +Product()
-        +Product(Long id, String name, double price)
-        +getId() Long
-        +getName() String
-        +getPrice() double
+        +Product(id : Long, name : String, price : double)
+        +getId() : Long
+        +getName() : String
+        +getPrice() : double
     }
 ```
